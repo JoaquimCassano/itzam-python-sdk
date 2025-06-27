@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "itzam"
+version = "1.0.0"
+description = "Python SDK to interact with Itzam's API"
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+authors = [{ name = "Joaquim Cassano", email = "joaquim@cassano.com.br" }]
+dependencies = [
+   "pydantic",
+  "requests",
+  "rich"
+]
