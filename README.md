@@ -48,6 +48,10 @@ client = Itzam()
 - **Runs**: Inspect previous runs and their metadata.
 
 ## Usage Examples
+### See available models
+```shell
+python3 -m itzam.models
+```
 
 ### Generate Text
 
