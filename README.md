@@ -1,3 +1,5 @@
+![PyPI Version](https://img.shields.io/pypi/v/itzam?label=pypi%20package)
+![PyPI Downloads](https://img.shields.io/pypi/dm/itzam)
 # Itzam python sdk
 ![itzam logo](https://pbs.twimg.com/profile_banners/1930643525021937664/1749136962/600x200)
 
