@@ -14,10 +14,11 @@ response = client.text.generate(
 print(response.text)
 ```
 """
-from .text.client import TextClient
+from .text import TextClient
 from .threads import ThreadsClient
 from .runs import RunsClient
 from .models import ModelsClient
+from .objects import ObjectsClient
 import dotenv, os
 
 class Itzam:
@@ -38,3 +39,4 @@ class Itzam:
     self.threads = ThreadsClient(base_url=base_url, api_key=api_key)
     self.runs = RunsClient(base_url=base_url, api_key=api_key)
     self.models = ModelsClient(base_url=base_url, api_key=api_key)
+    self.objects = ObjectsClient(base_url=base_url, api_key=api_key)
